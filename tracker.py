@@ -2,6 +2,7 @@ import cv2
 
 # tracker=cv2.TrackerKCF_create() 
 tracker=cv2.TrackerCSRT_create() 
+# tracker=cv2.TrackerMIL_create() 
 
 # video=cv2.VideoCapture(r'E:/race.mp4')
 video=cv2.VideoCapture(r'E:/street.mp4')
